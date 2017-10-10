@@ -1,0 +1,5 @@
+/Users/louisp3/Desktop/repos/yoreselph/yoreselph/bin/Debug/yoreselph.exe
+/Users/louisp3/Desktop/repos/yoreselph/yoreselph/bin/Debug/yoreselph.pdb
+/Users/louisp3/Desktop/repos/yoreselph/yoreselph/obj/x86/Debug/yoreselph.csproj.CoreCompileInputs.cache
+/Users/louisp3/Desktop/repos/yoreselph/yoreselph/obj/x86/Debug/yoreselph.exe
+/Users/louisp3/Desktop/repos/yoreselph/yoreselph/obj/x86/Debug/yoreselph.pdb
