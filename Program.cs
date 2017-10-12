@@ -13,6 +13,7 @@ namespace yoreselph
         {
             
             Console.WriteLine("Type up 2 numbers");
+
             float num1 = float.Parse(Console.ReadLine());
             float num2 = float.Parse(Console.ReadLine());
 
@@ -52,7 +53,7 @@ namespace yoreselph
 
         public static void EvaluateOption(int option, float n1, float n2)
         {
-            if (option == 1)
+            /*if (option == 1)
             {
                 Console.WriteLine("Result of the addition: " + AddTwoNumbers(n1, n2));
             }
@@ -68,12 +69,38 @@ namespace yoreselph
             {
                 Console.WriteLine("Result of the division: " + DivideTwoNumbers(n1, n2));
             }
+            else if (option == 5)
+            {
+                return;
+            }
             else
             {
                 Console.WriteLine("Invalid Option");
+            }*/
+
+            switch(option)
+            {
+                case 1:
+                    Console.WriteLine("Result of the addition: " + AddTwoNumbers(n1, n2));
+                    break;
+                case 2:
+                    Console.WriteLine("Result of the subtraction: " + SubtractTwoNumbers(n1, n2));
+                    break;
+                case 3:
+                    Console.WriteLine("Result of the multiplication: " + MultiplyTwoNumbers(n1, n2));
+                    break;
+                case 4:
+                    Console.WriteLine("Result of the division: " + DivideTwoNumbers(n1, n2));
+                    break;
+                case 5:
+                    return;
+                default:
+                    Console.WriteLine("Invalid Option");
+                    break;
+
             }
 
-            Start
+            Start();
         }
     }
 }
